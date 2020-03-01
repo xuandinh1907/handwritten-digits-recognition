@@ -8,6 +8,15 @@ In this project,my goal is to correctly identify digits from a dataset of tens o
 # Data
 The data files train.csv and test.csv contain gray-scale images of hand-drawn digits,from zero through nine
 
+Donwload dataset [here](https://www.kaggle.com/c/digit-recognizer/data)
+
+# Modeling
+Random Forest
+- max_depth = 21
+- n_estimators = 258
+
+Accuracy on train 96% , on test 89%
+
 # Flask app
 - create virtual env and activate env
 - install necessary packages by command `pip install -r requirements.txt`
